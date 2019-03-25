@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText"
-        android:Layout_marginLeft="15dp"
+        android:layout_marginLeft="15dp"
 
         android:layout_toRightOf="@id/buttonTwo"
         android:text="3" />
@@ -25,6 +25,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:layout_toRightOf="@id/buttonOne"
+        android:onClick="buttonClick2"
         android:text="2" />
 
     <EditText
@@ -40,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/editText"
-
+        android:onClick="buttonClick"
         android:text="1" />
 
     <Button
@@ -68,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/buttonThree"
         android:layout_toRightOf="@id/buttonFive"
-        android:Layout_marginLeft="15dp"
+        android:layout_marginLeft="15dp"
 
         android:layout_marginTop="15dp"
         android:text="6" />
